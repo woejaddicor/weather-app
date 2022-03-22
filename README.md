@@ -24,7 +24,7 @@ And you should be good to go!
 Alternatively, you can view the application on the following link:
 
 ```sh
-tbc
+https://woejaddicor-weather-app.netlify.app/
 ```
 
 ## Author
