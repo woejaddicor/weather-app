@@ -7,13 +7,11 @@ function App() {
 	const [weatherdata, setWeatherData] = useState(null);
 	const [city, setCity] = useState('Manchester');
 	const [loading, setLoading] = useState(false);
-	const [time, setTime] = useState(new Date().toLocaleString());
+	const [time] = useState(new Date().toLocaleString());
 
 	useEffect(() => {
 		getData();
 	}, []);
-
-	console.log(time);
 
 	const getData = async () => {
 		try {
